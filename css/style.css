@@ -1,0 +1,92 @@
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url('../image/anh.gif');
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-size: cover;
+    position: relative;
+}
+.message{
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    color: rgb(27, 26, 26);
+    top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    width: fit-content;
+    right: 500px;
+    border-radius: 20px 20px 0px 20px;
+}
+
+#option1{
+    background-color: rgb(221, 22, 22);
+    position: absolute;
+    font-weight: 500;
+    font-size: 25px;
+    width: fit-content;
+    border-radius: 20px 20px 20px 20px;
+    transition: ease-in-out 0.5s;
+    z-index: 10;
+
+}
+#option2{
+    background-color: rgb(40, 223, 55);
+    position: absolute;
+    font-weight: 500;
+    font-size: 25px;
+    width: fit-content;
+    border-radius: 20px 20px 20px 20px;
+    transition: ease-in-out 0.5s;
+    top: 500px;
+    left: 700px;
+
+}
+.a{
+    transition: ease-in-out 0.5s;
+    right: 500px;
+    top: 500px;
+}
+.f{
+    transition: ease-in-out 0.5s;
+    top: 20px;
+    right: 10px;
+}
+.b{
+    transition: ease-in-out 0.5s;
+    top: 60px;
+    left: 16px;
+}
+.c{
+    transition: ease-in-out 0.5s;
+    top: 500px;
+    right: 60px;
+}
+.d{
+    transition: ease-in-out 0.5s;
+    right: 500px;
+    top: 500px;
+    /* right: 60px; */
+}
+.camOn{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    opacity: 0;
+    top: 30%;
+    left: 30%;
+    /* display: none; */
+    transition: ease-in-out 1.5s;
+
+}
+.camOn img{
+    height: 350px;
+    width: 350px;
+    
+}
+.show{
+    /* display: block; */
+    opacity: 1;
+    transition: ease-in-out 1.5s;
+    z-index: 20;
+}
